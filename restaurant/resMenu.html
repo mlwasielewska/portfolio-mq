@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./file.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet"> -->
+
+  <script src="https://kit.fontawesome.com/51e019894c.js" crossorigin="anonymous"></script>
+
+  <title>Restaurant</title>
+</head>
+
+<body>
+
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hell's Kitchen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav justify-content-end">
+          <a class="nav-link active rounded-3" aria-current="page" href="./resHome.html">Home</a>
+          <a class="nav-link rounded-3" href="./resMenu.html">Menu</a>
+          <a class="nav-link rounded-3" href="#contact" >Contact</a>
+          <a class="nav-link rounded-3" href="./resReservation.html">Reservation</a>
+          <a class="nav-link rounded-3" href="./resGallery.html" >Gallery</a>
+        </div>
+      </div>
+    </div>
+  </nav>  
+  <!-- NAVBAR BURGER offcanvas
+ <div class="w-70" > 
+  <nav class="navbar navbar-custom w-75">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hell's Kitchen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Eat</a></li>
+                    <li><a class="dropdown-item" href="#">Drink</a></li>
+                    <li><a class="dropdown-item" href="#">Wine</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Reservation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div> -->
+      
+    <!-- HERO -->
+
+    <div class="menu-hero">
+        <img src="./photos/menu-hero.jpg" class="img-fluid w-90 rounded-3"
+        alt="waiter with plates" style="height: 60vh;">
+    </div> 
+
+    <!-- ASIDE -->
+
+  <div class= "arrow">
+  <a href="#" class="fa-sharp fa-solid fa-arrow-up"></a>
+  </div>
+
+  <!-- MENU -->
+
+
+  <div class="menu-headline">
+    <h1>Welcome to our Menu</h1>
+  </div>
+
+  <div class="card-group">
+    <div class="card">
+      <!-- <a href="#eat" -->   
+      <a href="#eat"><img src="./photos/eat3.jpg" class="card-img h-100" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">EAT</h5>
+        <!-- <p class="card-text"></p>
+        <p class="card-text"><small></small></p> -->
+      </div></a>
+    </div>
+
+    <div class="card ">
+      <a href="#drink"><img src="./photos/drink.jpg" class="card-img w-100" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">DRINK</h5>
+        <!-- <p class="card-text"></p>
+        <p class="card-text"><small></small></p> -->
+      </div></a>
+    </div>
+
+    <div class="card">
+      <a href="#wine"><img src="./photos/wine.jpg" class="card-img w-100 " alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">WINE</h5>
+        <!-- <p class="card-text"></p>
+        <p class="card-text"><small></small></p> -->
+      </div></a>
+    </div>
+  </div>  
+
+  <div class= "menu-subtitle" id="eat">Eat</div>
+
+
+  <!-- ACCORDION MENU -->
+  
+  <div class="accordion rounded-3" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Starters
+          </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">STARTER</th>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                      <th scope="col">PRICE</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-group-divider">
+                    <tr>
+                      <th scope="row">Oysters Rockefeller </th>
+                      <td></td>
+                      <td></td>
+                      <td>$26.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Twice Baked Vermont Blue Cheese Puff</th>
+                      <td>with Chopped Tomatoes $5.00</td>
+                      <td></td>
+                      <td>$19.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Maryland Lump Crab Cakes</th>
+                      <td colspan="2"></td>
+                      <td>$28.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Butter Lettuce House Salad
+                    </th>
+                      <td>with Balsamic or Dijon Vinaigrette</td>
+                      <td></td>
+                      <td>$15.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Iceburg Lettuce Wedges, Blue Cheese Dressing</th>
+                      <td>with Chopped Tomatoes $5.00</td>
+                      <td></td>
+                      <td>$17.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Caesar Salad</th>
+                      <td colspan="2"></td>
+                      <td>$17.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Crisp Calamari Salad</th>
+                      <td></td>
+                      <td></td>
+                      <td>$23.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Twice Baked Vermont Blue Cheese Puff</th>
+                      <td>with Chopped Tomatoes $5.00</td>
+                      <td></td>
+                      <td>$19.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Maryland Lump Crab Cakes</th>
+                      <td colspan="2"></td>
+                      <td>$28.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Main
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Main</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">Our Legendary Mutton Chop</th>
+                    <td></td>
+                    <td></td>
+                    <td>$55.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prime Rib Of Beef, King's Cut</th>
+                    <td> with Mushroom or Red Wine Sauce $5.00</td>
+                    <td></td>
+                    <td>$67.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Steamed Maine Lobster & Filet Mignon</th>
+                    <td colspan="2"></td>
+                    <td>$77.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Roasted Buttermilk Chicken</th>
+                    <td></td>
+                    <td></td>
+                    <td>35.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Two Double Lamb Chops</th>
+                    <td></td>
+                    <td></td>
+                    <td>$59.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prime New York Sirloin</th>
+                    <td colspan="2">with Mushroom or Red Wine Sauce $5.00</td>
+                    <td>$62.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prime T-Bone Steak</th>
+                    <td></td>
+                    <td></td>
+                    <td>$69.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prime Porterhouse For Two</th>
+                    <td>with Mushroom or Red Wine Sauce $5.00</td>
+                    <td></td>
+                    <td>$138.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prime Porterhouse For Three</th>
+                    <td colspan="2">with Mushroom or Red Wine Sauce $5.00</td>
+                    <td>$172.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Dessert
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Desserts</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">New York Cheesecake</th>
+                    <td></td>
+                    <td></td>
+                    <td>$15.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Dark Chockolate Mousse</th>
+                    <td></td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Affogato</th>
+                    <td colspan="2">Espresso Coffee poured over Vanilla Ice Cream</td>
+                    <td>$12.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Butterscotch Sundae</th>
+                    <td></td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Coffee Canatata</th>
+                    <td></td>
+                    <td></td>
+                    <td>$12.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Key Lime Pie</th>
+                    <td colspan="2"></td>
+                    <td>$15.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Creme Brulee</th>
+                    <td></td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Vermont Bayley Hazen Blue With Port</th>
+                    <td></td>
+                    <td></td>
+                    <td>$23.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Banana Foster</th>
+                    <td colspan="2">with Dark Rum and Vanilla Ice Cream</td>
+                    <td>$15.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div> <!-- closing accordion eat-->
+  
+  <!-- ACCORDION DRINKS -->
+  <div class= "menu-subtitle" id="drink">Drink</div>
+
+  <!-- alcohol free -->
+  <!-- <div>   -->
+  <div class="accordion rounded-3" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+           Non Alcohol Drinks
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">NON ALCOHOL DRINKS</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">PRICE</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">Morning Star Martini </th>
+                    <td>Lyre’s White Cane non-alcoholic drink, passion fruit, vanilla syrup and freeze dried raspberries. Served with a shot of lemonade.</td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tanqueray 0.0 Collins</th>
+                    <td>Tanqueray 0.0, lemon juice, sugar and soda. Garnished with dehydrated lemon.</td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Espresso Martini</th>
+                    <td colspan="2">Lyre’s White Cane non-alcoholic drink, Lyre’s Coffee Originalle, vanilla syrup and coffee</td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Mojoto
+                  </th>
+                    <td>Lyre’s White Cane non-alcoholic drink, sugar syrup, lime & mint, topped with soda</td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Daiquiri</th>
+                    <td>Lyre’s White Cane non-alcoholic drink, lime, agave and garnished with a dehydrated lemon.</td>
+                    <td></td>
+                    <td>$14.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">House Soda Lychee</th>
+                    <td colspan="2">Teisseire Lychee syrup served long with soda</td>
+                    <td>$12.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">House Soda Passionfruit</th>
+                    <td>Teisseire Passionfruit syrup served long with soda</td>
+                    <td></td>
+                    <td>$12.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">House Soda Strawberry</th>
+                    <td>Teisseire Strawberry syrup served long with soda</td>
+                    <td></td>
+                    <td>$12.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Gentle ginger</th>
+                    <td colspan="2">The ultimate sober tipple. Warming yet refreshing, Tanqueray 0.0 is delicately balanced with lemon & invigorating ginger.</td>
+                    <td>$14.00</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+      
+      <!-- alcohol -->
+
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Alcohol Drinks
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">ALCOHOL DRINKS</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">Pina Colada</th>
+                  <td>Koko Kanu rum, Havana Especial rum, coconut syrup, lime, agave, coconut milk & pineapple juice.
+                  </td>
+                  <td></td>
+                  <td>$15.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cosmopolitan</th>
+                  <td>Discarded grape peel vodka, Cointreau,  lime and cranberry juice. Garnished with dehydrated orange.
+                  </td>
+                  <td></td>
+                  <td>$15.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Daiquiri</th>
+                  <td colspan="2">Bacardi Carta Blanca rum, agave and lime  juice. Garnished with dehydrated lime. Make it fruity with lychee, passionfruit, strawberry or raspberry.</td>
+                  <td>$17.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">French Martini</th>
+                  <td>Cîroc pineapple vodka, Chambord black raspberry liqueur, pineapple juice and raspberry dust.</td>
+                  <td></td>
+                  <td>15.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Aperol Spritz</th>
+                  <td>Aperol topped with Prosecco & soda. Garnished with orange.</td>
+                  <td></td>
+                  <td>$14.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Passionfruit Margharita</th>
+                  <td colspan="2">Olmeca blanco tequila, agave, lime juice & passion fruit. Garnished with dehydrated lemon. Or have a classic margarita instead.</td>
+                  <td>$16.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sailor's Swirl</th>
+                  <td>Sailor Jerry’s spiced rum, Chambord black raspberry liqueur, fruit blend with passion fruit, ginger syrup, lime & soda.</td>
+                  <td></td>
+                  <td>$15.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Blackcurrant Collins</th>
+                  <td>Tanqueray Royale gin, lemon, sugar & soda.</td>
+                  <td></td>
+                  <td>$13.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>  
+    </div>
+  <!-- </div>     -->
+
+
+
+  <!-- ACCORDION WINES -->
+  <div class= "menu-subtitle" id="wine">Wine</div>
+  <!-- champagne -->
+
+  
+  <div class="accordion rounded-3" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+           Champagne
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">NAME</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">PRICE</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">VEUVE CLICQUOT YELLOW LABEL NV</th>
+                    <td>12% vol</td>
+                    <td></td>
+                    <td>$76.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">MOËT ET CHANDON NV</th>
+                    <td>12% vol</td>
+                    <td></td>
+                    <td>$79.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PALMER & CO ROSÉ RESERVE</th>
+                    <td colspan="2">12% vol</td>
+                    <td>$88.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PERRIER-JOUÉT BLANC DE BLANCS
+                  </th>
+                    <td>12% vol</td>
+                    <td></td>
+                    <td>$95.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">VEUVE CLICQUOT ROSÉ</th>
+                    <td>12% vol</td>
+                    <td></td>
+                    <td>$117.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">POL ROGER BRUT VINTAGE</th>
+                    <td colspan="2">12% vol</td>
+                    <td>$127.00</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- white wine -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            White Wine
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">NAME</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row"> J Vineyards Pinot Gris</th>
+                  <td>USA, 13.8% vol</td>
+                  <td></td>
+                  <td>$25.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">La Sauterelle Picpoul De Pinet</th>
+                  <td>France, 13% vol</td>
+                  <td></td>
+                  <td>$47.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Albarino Do Rias Baixas </th>
+                  <td colspan="2">Spain, 12.5% vol</td>
+                  <td>$37.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jean-Marc Brocard Chablis</th>
+                  <td>Burgundy, France, 12.5% vol</td>
+                  <td></td>
+                  <td>45.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Spy Valley Easy Tiger Sauvignon Blanc</th>
+                  <td>New Zealand, 9.5% vol</td>
+                  <td></td>
+                  <td>$39.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Waddesdon Rothshild Voigner</th>
+                  <td colspan="2">France, 13.5% vol</td>
+                  <td>$32.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Rimapere Sauvignon Blanc</th>
+                  <td>New Zealand, 12.5% vol</td>
+                  <td></td>
+                  <td>$49.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sancerre</th>
+                  <td> France, 13% vol</td>
+                  <td></td>
+                  <td>$48.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Gavi DOCG</th>
+                  <td colspan="2">Italy, 12%</td>
+                  <td>$52.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    
+      <!-- red wine -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Red Wine
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">NAME</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col">PRICE</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">Zuccardi Q Malbec</th>
+                  <td>Argentina, 14% vol</td>
+                  <td></td>
+                  <td>$45.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Barossa Valley Estarte Shiraz</th>
+                  <td>Australia, 14% vol</td>
+                  <td></td>
+                  <td>$34.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">El Bar Malbec</th>
+                  <td colspan="2">Argentina, 13% vol </td>
+                  <td>$32.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Chateu Des Laurets</th>
+                  <td>Bordeaux, France, 13.5% vol</td>
+                  <td></td>
+                  <td>$52.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Old Coach Pinot Noir</th>
+                  <td colspan="2">New Zealand, 14% vol</td>
+                  <td>$45.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Kendal Jackson Cabernet Sauvignon</th>
+                  <td>California, USA, 13.5% vol</td>
+                  <td></td>
+                  <td>$34.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lucente Super Tuscan</th>
+                  <td>Tuscany, Italy, 14%</td>
+                  <td></td>
+                  <td>$53.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Penfolds Bin 2 Shiraz Mataro</th>
+                  <td colspan="2">Australia, 14.5% vol</td>
+                  <td>$45.00</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Altano Douro Rewilding Edition</th>
+                  <td colspan="2">Portugal, 14% vol</td>
+                  <td>$52.00</td>
+                </tr> 
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+
+
+
+
+  <!-- FOOTER -->
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <!-- <div class="container my-5"> -->
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-black">
+    <!-- Grid container -->
+    <div class="container p-1 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1">
+            <h6 class="text-uppercase mb-3 font-weight-bold">
+              Hell's Kitchen
+            </h6>
+            <p>
+              Tell me what you like to eat and I will tell you who you are.
+            </p>
+          </div>
+          
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-1">
+            <h6 class="text-uppercase mb-3 font-weight-bold">
+              Links
+            </h6>
+            <p>
+              <a href="#" class="text-black">Home</a>
+            </p>
+            <p>
+              <a href="./resReservation.html" class="text-black">Reservation</a>
+            </p>
+            <p>
+              <a href="resGallery.html" class="
+              text-black">Gallery</a>
+            </p>
+            <p>
+              <a href="#" class="text-black">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-1" id="contact">
+            <h6 class="text-uppercase mb-3 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fa-solid fa-envelope mr-3"></i> HKRestaurant@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 277 564 23</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 299 567 24</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-black" href="https://mdbootstrap.com/"
+                 >MLW</a>
+            </div>  <!-- Copyright -->
+          </div>  <!-- Grid column -->
+          
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a></div>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a></div>
+
+            <!-- Google -->
+            <a href="https://www.google.co.uk/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a></div>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/?hl=en/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a></div>
+          </div><!-- Grid column socialmedia-->
+        </div>
+      </section>  <!-- Section: Copyright -->
+    </div>  <!-- Grid container -->
+  </footer>  <!-- closing footer -->
+</div>  <!--  closing body  -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

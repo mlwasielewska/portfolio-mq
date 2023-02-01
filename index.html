@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malgorzata Wasielewska</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script src="https://kit.fontawesome.com/51e019894c.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+<div class="content">
+
+<!-- <video id="background-vid" src="/images/pink_plate.mov" autoplay loop muted
+
+poster="/images/pink_plate.mov"> -->
+
+<!-- </video> -->
+    <!-- NAVBAR -->
+    <header class="header">
+      <!-- logo -->
+      <!-- <img src="./images/7.png" alt="MW" class="logo" > -->
+      <div class="logo">MW</div>
+      
+      <!-- menu -->
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <!-- HERO-->
+
+    <div class="hero">
+      <div id="hero">
+        <h4 class="hi">Hi there, my name is</h4>
+        <h2><span>M</span>algorzata <span>W</span>asielewska.</h2>
+        <h4 class="hi" >You can call me <span>R</span>ita.</h4>
+        <h4 class="hi">I am the <span>J</span>unior <span>W</span>eb <span>D</span>eveloper.</h4>    
+      </div>
+
+      <div class="hero-btn">
+
+        <a href="#portfolio" class="button">Projects</a>
+
+        <a href="./filesCV/CV_MWasielewska.pdf" download="CV_MWasielewska.pdf" class="button" target="_blank" >CV download</a>
+
+        
+      </div>
+
+      <div class="grid-container">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-square-js"></i>
+        <i class="fa-solid fa-database"></i>
+        <i class="fa-brands fa-python"></i>
+      </div>
+    </div>
+
+       <!-- ASIDE-->
+    <div class="asideIcons">
+      <a href="https://github.com/MWasielewska" class="fa-brands fa-square-github" target="_blank"></a>
+      <a href="https://uk.linkedin.com/" class="fa-brands fa-linkedin" target="_blank"></a>
+      <a href="#" class="fa-sharp fa-solid fa-arrow-up"></a>
+    </div>
+    <!-- </div> -->
+
+    
+      <!--ABOUT -->
+    <div class="section">
+      <div id="about">
+        <h2 class="subtitle">About me</h2>
+        <div class="MeContainer">
+          <img class="myPhoto" src="./images/red-head.jpg" alt="moja fotka"/>
+
+          <div class="text">
+            <p>
+              <!-- I started my adventure with IT thanks to my husband, a passionate
+              IT specialist. He made me realize that I could develop my interest
+              in the broadly understood language in a slightly different field. -->
+
+              In the past I studied language and literature, later I realized
+              myself as a teacher. Now I have decided to change my professional
+              path a bit and try my strength in the dynamic world of IT. 
+              
+              I work hard to become a <span>Junior Web Developer</span> and I am excited to make the leap and continue refining my skills with the right company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+      <!-- PORTFOLIO -->
+    <div class="section">
+      <div id="portfolio">
+        <h2 class="subtitle">My projects</h2>
+
+        <div class="projects-container">   <!-- usunac(?)bo nie wchodza style css z section -->
+          <div class="projectCard">
+            <a href="./restaurant/resHome.html" target="_blank"><img src="./images/pro1kitchen.png" alt="html"/></a>
+            <p class="btn"><a href="./restaurant/resHome.html" target="_blank">See more</a></p>
+          </div>
+          <div class="projectCard">
+            <a href="./clock/clock.html" target="_blank"><img src="./images/pro2clock.png" alt="js"/></a>
+            <p class="btn"><a href="./clock/clock.html" target="_blank">See more</a></p>
+          </div>
+          <div class="projectCard">
+            <a href="https://replit.com/@mlwasielewska/Expenses#" target="_blank"><img src="./images/pro3python.png" alt="js"/></a>
+            <p class="btn"><a href="https://replit.com/@mlwasielewska/Expenses#" target="_blank">See more</a></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- CONTACT -->
+    <div class="section">
+      <div id="contact">
+        <h2 class="subtitle">Contact</h2>
+        
+        <form>
+          <div class="contact-container">
+            <div class="conOne">
+              <div class="input-group">Your name:</div>
+              <input class="in-gr-nam" type="text" name="name"/>
+              <!-- <div class="input-group">Subject:</div>
+              <input class="in-gr-sub" type="text" name="sub"/> -->
+              <div class="input-group">Email:</div>
+              <input class="in-gr-ema" type="email" name="email"/>
+            </div>
+            <div class="conTwo">
+              <div class="input-group">Your message:</div>
+              <textarea id="message"
+              cols="30"
+              rows="8">
+              </textarea>
+            </div> 
+          </div>
+
+          <button type="submit" class="button">Send your message</button>
+        </form>
+      </div>
+    </div> 
+    
+    <!--FOOTER-->
+    <footer>
+      <p>Follow me on:</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/?hl=en/" class="fa fa-instagram" target="_blank"></a>
+      </div>
+      <div
+      class="copyright">Copyright &copy; 2023 MW</div>
+    </footer>
+  </div>
+  </body>
+</html>

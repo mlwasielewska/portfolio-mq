@@ -1,0 +1,232 @@
+body{
+    max-width: 760px;
+    margin: 0 auto;
+    background: linear-gradient(white, grey);
+}
+
+
+/* NAVBAR */
+
+.navbar-brand{
+    color: #F54952;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #F54952;
+    
+ } /* zmienia kolor \about*/
+
+.navbar-toggler{
+    color: #F54952;
+    font-size: .75rem;
+ } 
+
+.nav-link{
+    color: #F54952;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #F54952;
+    background-color: rgb(194, 194, 194);
+   
+}
+
+ .btn-close{
+    color: #F54952;
+ }
+
+
+/* HOME CAROUSEL*/
+
+.carousel-inner img {
+    margin: 0 auto;
+    border: solid #F54952 4px;
+}
+   
+.carousel-caption{
+    justify-content: center;
+    font-family: 'Arima Madurai', cursive;
+ }
+
+
+/* ASIDE */
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    width: 1rem;
+    position: fixed;
+    top: 90vh;
+    text-decoration: none;
+    color: #F54952;
+    margin-left: .25rem;
+    z-index: 10;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: #F54952;
+} 
+
+
+/* BUTTONS */
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin: .5rem;
+    font-size: .75rem;
+    color: #F54952;
+}
+
+.btn-outline-danger{
+    /* color: #F54952; */
+    outline: solid #F54952 .1rem;
+    font-weight: bold;
+}
+
+
+/* HOME PROMISE */
+
+.promise{
+    margin: .75rem;
+    font-size: .75rem;
+    border: solid .25rem #F54952;
+    padding: .75rem;
+    background-color: rgb(246, 244, 244);
+}
+
+.our-prom{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #F54952;
+}
+
+
+/* FOOTER */
+
+.row{
+    font-size: .75rem;
+}
+
+.row h6, .our-prom p span{
+    font-family: 'Bebas Neue', cursive;
+    color: #F54952;
+}
+
+.fab{
+    color: #F54952;
+}
+
+
+/* ------------MENU PAGE----------------- */
+/* .row p{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 2rem;
+} */
+ .menu-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-headline{
+margin: 3rem;
+text-align: center;
+font-size: 2rem;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion{
+margin: 2rem auto; 
+border: solid #F54952 3px;
+}
+
+.accordion-header .accordion-button{
+    color: #F54952;
+    box-shadow: none; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #F54952;
+}
+
+
+.img-drink, .img-eat, .img-desert{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.card-title{
+    color: #F54952;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;;
+    }
+
+.card{
+    box-shadow: solid grey (0 10px 10px 0);
+    margin: 4rem 1rem;
+}
+
+.menu-subtitle{
+    font-family: 'Bebas Neue', cursive;
+    color: #F54952;
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.img-fluid{
+    border: solid #F54952 .3rem;
+}
+
+
+/* gallery page */
+
+.gallery-container{
+    margin-top: 3rem;
+}
+
+.gallery-container .row{
+   max-width: 90vw;
+   margin: 0 auto;
+}
+
+.gallery-headline, .reservation-headline{
+    margin: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* RESERVATION FORM */
+
+.reservation-form .row{
+    max-width: 80vw;
+    margin: 4rem auto;
+    box-shadow: 20px 20px 50px grey;
+}
+.reservation-form{
+
+}
+.form-control, .form-select{
+    box-shadow: none;
+    border-color: #F54952;
+    
+}
+
+input, select, textarea{
+    box-shadow: none !important;
+
+}
+
+.col-12 button{
+    margin-bottom: 2rem;
+}
+
+

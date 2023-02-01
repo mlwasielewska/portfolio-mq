@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./file.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Fascinate+Inline&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet"> -->
+
+  <script src="https://kit.fontawesome.com/51e019894c.js" crossorigin="anonymous"></script>
+
+  <title>Restaurant</title>
+</head>
+
+<body>
+
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hell's Kitchen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav justify-content-end">
+          <a class="nav-link active rounded-3" aria-current="page" href="./resHome.html">Home</a>
+          <a class="nav-link rounded-3" href="./resMenu.html" >Menu</a>
+          <a class="nav-link rounded-3" href="#contact" >Contact</a>
+          <a class="nav-link rounded-3" href="./resReservation.html" >Reservation</a>
+          <a class="nav-link rounded-3" href="./resGallery.html" >Gallery</a>
+        </div>
+      </div>
+    </div>
+  </nav>  
+
+  
+  <!-- NAVBAR BURGER offcanvas-->
+ <!-- <div class="w-70" > -->
+  <!-- <nav class="navbar navbar-custom w-75">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hell's Kitchen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Eat</a></li>
+                    <li><a class="dropdown-item" href="#">Drink</a></li>
+                    <li><a class="dropdown-item" href="#">Wine</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Reservation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div> -->
+      
+    <!-- form -->
+
+    <div class="reservation-form ">
+      <div class="reservation-headline">Book a Table</div>
+      <form class="row g-3 rounded-3">
+
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationDefault01"  required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Email</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Phone number</label>
+          <input type="text" class="form-control" id="validationDefault04" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="validationDefault09" class="form-label">Date</label>
+          <input type="date" class="form-control"
+          id="validationDefault09" name="date" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="appt-time" class="form-label">Time </label>
+          <input id="appt-time" type="time" name="appt-time" class="form-control" required/>
+        </div>
+
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Number of People</label>
+          <select class="form-select" id="validationDefault05" required>
+            <option selected disabled value="">Please choose</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6+</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="FormControlTextarea1" class="form-label">Additional information</label>
+          <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button type="button" class="btn btn-outline-danger">Submit</button>
+        </div>
+      </form>
+    </div>
+
+
+    <!-- ASIDE -->
+
+  <div class= "arrow">
+  <a href="#" class="fa-sharp fa-solid fa-arrow-up"></a>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-black">
+    <!-- Grid container -->
+    <div class="container p-1 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1">
+            <h6 class="text-uppercase mb-3 font-weight-bold">
+              Hell's Kitchen
+            </h6>
+            <p>
+              Tell me what you like to eat and I will tell you who you are.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-1">
+            <h6 class="text-uppercase mb-3 font-weight-bold">
+              Links
+            </h6>
+            <p>
+              <a href="./resHome.html" class="text-black">Home</a>
+            </p>
+            <p>
+              <a href="./resMenu.html" class="text-black">Menu</a>
+            </p>
+            <p>
+              <a href="resGallery.html" class="
+              text-black">Gallery</a>
+            </p>
+            <p>
+              <a href="#" class="text-black">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-1" id="contact">
+            <h6 class="text-uppercase mb-3 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fa-solid fa-envelope mr-3"></i> HKRestaurant@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 277 564 23</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 299 567 24</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-black" href="https://mdbootstrap.com/"
+                 >MLW</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a<a href="https://www.facebook.com/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a></div>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a></div>
+
+            <!-- Google -->
+            <a href="https://www.google.co.uk/" target="_blank">
+              <div 
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a></div>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/?hl=en/" target="_blank">
+               <div class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></div>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+</div>  
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
