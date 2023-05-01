@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(133, 8, 33);background-image: url(./pic/pexels-brett-sayles-992734.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border: solid rgba(232, 169, 33, 0.884) 4px;
+    border-radius: 50%;
+}
+
+.title{
+   font-size: 2rem;
+   padding: 2rem;
+   margin-bottom: 2rem;
+   color: goldenrod;
+}
+
+h4{
+    margin-top: 2rem;
+}
+
+#quoteDisplay{
+    color:blanchedalmond;
+    font-size: 2rem;
+    height: 100%;
+    padding: 2rem;
+}
+
+#authorDisplay{
+    font-size: 1.25rem;
+    color: blanchedalmond;
+    padding-bottom: 3rem;
+}

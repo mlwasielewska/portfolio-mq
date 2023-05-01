@@ -24,31 +24,38 @@
   </head>
 
   <body>
-<div class="content">
+<nav class="content">
+  <!-- MENU / HAMBURGER -->
 
-<!-- <video id="background-vid" src="/images/pink_plate.mov" autoplay loop muted
+  <header>
+    <div class="container"> 
+        <nav class="navbar">
+          <a href="#" class="nav-branding">MW</a>
+          
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li
+            class="nav-item">
+              <a href="#portfolio" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+     </div>
+   </header>
 
-poster="/images/pink_plate.mov"> -->
-
-<!-- </video> -->
-    <!-- NAVBAR -->
-    <header class="header">
-      <!-- logo -->
-      <!-- <img src="./images/7.png" alt="MW" class="logo" > -->
-      <div class="logo">MW</div>
-      
-      <!-- menu -->
-      <nav class="nav">
-        <ul class="menu">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    
     <!-- HERO-->
 
     <div class="hero">
@@ -63,7 +70,7 @@ poster="/images/pink_plate.mov"> -->
 
         <a href="#portfolio" class="button">Projects</a>
 
-        <a href="./filesCV/CV_MWasielewska.pdf" download="CV_MWasielewska.pdf" class="button" target="_blank" >CV download</a>
+        <a href="./filesCV/CV MLWasielewska.pdf" download="CV MLWasielewska.pdf" class="button" target="_blank" >CV download</a>
 
         
       </div>
@@ -80,7 +87,7 @@ poster="/images/pink_plate.mov"> -->
 
        <!-- ASIDE-->
     <div class="asideIcons">
-      <a href="https://github.com/MWasielewska" class="fa-brands fa-square-github" target="_blank"></a>
+      <a href="https://github.com/MLWasielewska" class="fa-brands fa-square-github" target="_blank"></a>
       <a href="https://uk.linkedin.com/" class="fa-brands fa-linkedin" target="_blank"></a>
       <a href="#" class="fa-sharp fa-solid fa-arrow-up"></a>
     </div>
@@ -96,10 +103,6 @@ poster="/images/pink_plate.mov"> -->
 
           <div class="text">
             <p>
-              <!-- I started my adventure with IT thanks to my husband, a passionate
-              IT specialist. He made me realize that I could develop my interest
-              in the broadly understood language in a slightly different field. -->
-
               In the past I studied language and literature, later I realized
               myself as a teacher. Now I have decided to change my professional
               path a bit and try my strength in the dynamic world of IT. 
@@ -116,19 +119,41 @@ poster="/images/pink_plate.mov"> -->
       <div id="portfolio">
         <h2 class="subtitle">My projects</h2>
 
-        <div class="projects-container">   <!-- usunac(?)bo nie wchodza style css z section -->
+        <div class="projects-container">   
           <div class="projectCard">
+            <p class="btn"><a href="./restaurant/resHome.html" target="_blank">Restaurant Webpage</a></p>
             <a href="./restaurant/resHome.html" target="_blank"><img src="./images/pro1kitchen.png" alt="html"/></a>
-            <p class="btn"><a href="./restaurant/resHome.html" target="_blank">See more</a></p>
+              <div class="icons-project"> 
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
           </div>
+
           <div class="projectCard">
+            <p class="btn"><a href="./clock/clock.html" target="_blank">Analog Clock With Timezones</a></p>
             <a href="./clock/clock.html" target="_blank"><img src="./images/pro2clock.png" alt="js"/></a>
-            <p class="btn"><a href="./clock/clock.html" target="_blank">See more</a></p>
+              <div class="icons-project"> 
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+              </div>
           </div>
+
           <div class="projectCard">
+            <p class="btn"><a href="./clock/clock.html" target="_blank">Chinese Fortune Cookie</a></p>
+            <a href="./fortune/fortune.html" target="_blank"><img src="./images/pro3fortune.png" alt="js"/></a>
+              <div class="icons-project"> 
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+              </div> 
+          </div>
+
+          <!-- <div class="projectCard">
             <a href="https://replit.com/@mlwasielewska/Expenses#" target="_blank"><img src="./images/pro3python.png" alt="js"/></a>
             <p class="btn"><a href="https://replit.com/@mlwasielewska/Expenses#" target="_blank">See more</a></p>
-          </div>
+          </div> -->
           </div>
         </div>
       </div>
@@ -139,14 +164,18 @@ poster="/images/pink_plate.mov"> -->
     <div class="section">
       <div id="contact">
         <h2 class="subtitle">Contact</h2>
-        
+
+        <div class="other">
+          <p><i class="fa-solid fa-envelope"></i><a href="mailto:mlwasielewska@gmail.com"> mlwasielewska@gmail.com</a></p>
+          <!-- <br>
+          <p><i class="fa-solid fa-phone"></i> +44 07599 789 769</p> -->
+        </div>
+
         <form>
           <div class="contact-container">
             <div class="conOne">
               <div class="input-group">Your name:</div>
               <input class="in-gr-nam" type="text" name="name"/>
-              <!-- <div class="input-group">Subject:</div>
-              <input class="in-gr-sub" type="text" name="sub"/> -->
               <div class="input-group">Email:</div>
               <input class="in-gr-ema" type="email" name="email"/>
             </div>
@@ -176,5 +205,7 @@ poster="/images/pink_plate.mov"> -->
       class="copyright">Copyright &copy; 2023 MW</div>
     </footer>
   </div>
+
+<script src="./files.js"></script>
   </body>
 </html>
